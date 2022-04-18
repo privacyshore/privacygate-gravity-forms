@@ -1,15 +1,15 @@
-**Coinbase Commerce Payment Gateway For Gravity Forms**
+**PrivacyGate Payment Gateway For Gravity Forms**
 -------
 * Requires at least: 4.0
 * Tested up to: 5.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Coinbase Commerce is a service that enables merchants to accept multiple cryptocurrencies directly into a user-controlled wallet.
+PrivacyGate is a service that enables merchants to accept multiple cryptocurrencies directly into a user-controlled wallet.
 
 ### Description
 
-Coinbase Commerce is the digital payment service that allows merchants to accept payments in a variety of digital currencies like Bitcoin, Bitcoin Cash, DAI, Ethereum, Litecoin, and USD Coin. These payments are received directly into a merchant-controlled wallet.
+PrivacyGate is the digital payment service that allows merchants to accept payments in a variety of digital currencies like Bitcoin, Bitcoin Cash, DAI, Ethereum, Litecoin, and USD Coin. These payments are received directly into a merchant-controlled wallet.
 
 Features:
 
@@ -25,7 +25,7 @@ Features:
 
 ### Installation
 
-This section describes how to install and setup the Gravity Forms Coinbase Commerce Add-On. Be sure to follow *all* of the instructions in order for the Add-On to work properly.
+This section describes how to install and setup the Gravity Forms PrivacyGate Add-On. Be sure to follow *all* of the instructions in order for the Add-On to work properly.
 
 ### Requirements
 
@@ -35,27 +35,27 @@ Requires at least WordPress 4.0, PHP 5.3, [Gravity Forms](https://rocketgenius.p
 
 1. Make sure you have your own copy of [Gravity Forms](https://www.gravityforms.com/). This plugin does not include Gravity Forms.
 
-2. You'll also need a Coinbase Commerce account. To signup visit https://commerce.coinbase.com/
+2. You'll also need a PrivacyGate account. To signup visit https://dash.privacygate.io/
 
-3. Download zip archive from [releases page](https://github.com/coinbase/coinbase-commerce-gravity-forms/releases) and unzip or clone plugin and run `composer install` inside clonned folder
+3. Download zip archive from [releases page](https://github.com/privacyshore/privacygate-gravity-forms/releases) and unzip or clone plugin and run `composer install` inside clonned folder
 
-4. Upload the plugin folder gf-coinbase-commerce to your WordPress site /wp-content/plugins folder.
+4. Upload the plugin folder gf-privacygate to your WordPress site /wp-content/plugins folder.
 
-5. Visit the **Plugins** menu in your WordPress dashboard, find `Coinbase Commerce Payments For Gravity Forms` in your plugin list, and click the Activate link.
+5. Visit the **Plugins** menu in your WordPress dashboard, find `PrivacyGate Payments For Gravity Forms` in your plugin list, and click the Activate link.
 
-6. Visit the **Forms->Settings** menu, select the Coinbase Commerce Tab, and add your API Key, Shared Secret Key from Coinbase Commerce Dashboard (https://commerce.coinbase.com/dashboard/settings).
+6. Visit the **Forms->Settings** menu, select the PrivacyGate Tab, and add your API Key, Shared Secret Key from PrivacyGate Dashboard (https://dash.privacygate.io/settings).
 
-7. Copy Webhook Notification Url from Coinbase Commerce Tab to Settings/Webhook subscription https://commerce.coinbase.com/dashboard/settings
+7. Copy Webhook Notification Url from PrivacyGate Tab to Settings/Webhook subscription https://dash.privacygate.io/settings
 
-8. Create new Gravity form and add Coinbase Commerce Feed.
+8. Create new Gravity form and add PrivacyGate Feed.
 
 ### Frequently Asked Questions
 
 **Do I need to have SSL?**  
 Yes, for webhook notifications you need SSL.
 
-**Does Coinbase Commerce integrate with other e-commerce platforms?**  
-Yes, a list of all offical integrations can be found here: [Coinbase Commerce Integrations](https://commerce.coinbase.com/integrate).
+**Does PrivacyGate integrate with other e-commerce platforms?**  
+Yes, a list of all offical integrations can be found here: [PrivacyGate Integrations](https://dash.privacygate.io/docs).
 
 ### Changelog
 

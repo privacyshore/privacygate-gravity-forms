@@ -1,4 +1,4 @@
-/gf-coinbase-commerce/vendor/CoinbaseSDK/*
-!/gf-coinbase-commerce/vendor/CoinbaseSDK/const.php
+/gf-privacygate/vendor/PrivacyGateSDK/*
+!/gf-privacygate/vendor/PrivacyGateSDK/const.php
 /.idea/
 /composer.lock
